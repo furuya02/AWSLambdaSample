@@ -31,4 +31,3 @@ os.system("dotnet lambda deploy-function")
 # Tear Down
 os.chdir("..")
 shutil.rmtree(projectName)
-
