@@ -33,7 +33,6 @@
   <ItemGroup>
     <None Include="project.json" />
     <None Include="aws-lambda-tools-defaults.json" />
-    <None Include="createPackage.pi" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
