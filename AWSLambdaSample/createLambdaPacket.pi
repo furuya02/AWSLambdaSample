@@ -1,0 +1,34 @@
+import os
+import sys
+import shutil
+
+FILES = ["Function.cs"]
+
+# ProjectName
+dir = os.path.abspath(__file__)
+tmp = dir.split('/')
+projectName = tmp[len(tmp)-2]
+
+# Create Working Directory
+if os.path.exists(projectName) == False :
+    os.mkdir(projectName)
+os.chdir(projectName)
+os.system("cp ../project.json .")
+os.system("cp ../aws-lambda-tools-defaults.json .")
+for file in FILES:
+    os.system("cp ../" + file + " .")
+    print(file)
+
+# Restore 
+os.system("dotnet restore")
+
+# Create Package
+os.system("dotnet lambda package --configuration Release --framework netcoreapp1.0")
+
+# Deplay
+os.system("dotnet lambda deploy-function")
+
+# Tear Down
+os.chdir("..")
+shutil.rmtree(projectName)
+

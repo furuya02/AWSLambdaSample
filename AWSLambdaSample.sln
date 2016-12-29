@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWSLambdaSample", "AWSLambdaSample\AWSLambdaSample.csproj", "{EA210CF3-87B2-4341-B98D-6E8C470C5CB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA210CF3-87B2-4341-B98D-6E8C470C5CB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA210CF3-87B2-4341-B98D-6E8C470C5CB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA210CF3-87B2-4341-B98D-6E8C470C5CB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA210CF3-87B2-4341-B98D-6E8C470C5CB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

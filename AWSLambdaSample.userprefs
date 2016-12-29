@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{EA210CF3-87B2-4341-B98D-6E8C470C5CB2}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AWSLambdaSample/createPackage.pi">
+    <Files>
+      <File FileName="AWSLambdaSample/Program.cs" Line="19" Column="3" />
+      <File FileName="AWSLambdaSample/Function.cs" Line="16" Column="3" />
+      <File FileName="AWSLambdaSample/project.json" Line="33" Column="1" />
+      <File FileName="AWSLambdaSample/aws-lambda-tools-defaults.json" Line="9" Column="76" />
+      <File FileName="AWSLambdaSample/createPackage.pi" Line="26" Column="11" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AWSLambdaSample PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
