@@ -1,15 +1,14 @@
 ﻿<Properties StartupConfiguration="{6F969444-0472-48C4-950C-1C55FEB21BC1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AWSLambdaSample/project.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AWSLambdaSample/Function.cs">
     <Files>
-      <File FileName="AWSLambdaSample/Program.cs" Line="37" Column="2" />
-      <File FileName="AWSLambdaSample/Function.cs" Line="10" Column="1" />
-      <File FileName="AWSLambdaSample/project.json" Line="12" Column="32" />
-      <File FileName="AWSLambdaSample/aws-lambda-tools-defaults.json" Line="1" Column="1" />
+      <File FileName="AWSLambdaSample/Function.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/hirauchishinichi/Documents/work3/AWSLambdaSample/AWSLambdaSample/Function.cs" relfile="AWSLambdaSample/Function.cs" line="10" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.AWSLambdaSample PreferredExecutionTarget="MonoDevelop.Default" />
